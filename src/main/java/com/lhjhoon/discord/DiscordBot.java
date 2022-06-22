@@ -39,21 +39,4 @@ public class DiscordBot {
             e.printStackTrace();
         }
     }
-//    public void discordRun(){
-//        try{
-//            JDABuilder builder = JDABuilder.createDefault("OTcxNzU5NzE0NjgzNzIzODI2.GvE5LD.J6YxJTQd4jT9kegPzmGZd7eUW4xQeJ-kXZw9IQ");
-//            // Disable parts of the cache
-//            builder.disableCache(CacheFlag.MEMBER_OVERRIDES, CacheFlag.VOICE_STATE);
-//            // Enable the bulk delete event
-//            builder.setBulkDeleteSplittingEnabled(false);
-//            // Disable compression (not recommended)
-//            builder.setCompression(Compression.NONE);
-//            // Set activity (like "playing Something")
-//            builder.setActivity(Activity.listening("어떤 헛소리를 하나"));
-//            builder.addEventListeners(new MessageListener());
-//            builder.build();
-//        }catch(LoginException e){
-//            e.printStackTrace();
-//        }
-//    }
 }
