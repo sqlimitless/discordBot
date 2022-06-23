@@ -36,6 +36,9 @@ dependencies {
 
     /*H2*/
     runtimeOnly 'com.h2database:h2'
+
+    /*modelmapper*/
+    implementation group: 'org.modelmapper', name: 'modelmapper', version: '3.1.0'
 }
 
 test {
