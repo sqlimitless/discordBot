@@ -1,7 +1,7 @@
 package com.lhjhoon.discord;
 
-import com.lhjhoon.discord.chatConfig.domain.ChatRoomEntity;
-import com.lhjhoon.discord.chatConfig.domain.repository.ChatRoomRepository;
+import com.lhjhoon.discord.settingModule.chatRoomSetting.domain.ChatRoomEntity;
+import com.lhjhoon.discord.settingModule.chatRoomSetting.domain.repository.ChatRoomRepository;
 import com.lhjhoon.discord.eventListener.MessageListener;
 import lombok.RequiredArgsConstructor;
 import net.dv8tion.jda.api.JDABuilder;

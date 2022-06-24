@@ -1,4 +1,4 @@
-package com.lhjhoon.discord.message.service;
+package com.lhjhoon.discord.message.module;
 
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 

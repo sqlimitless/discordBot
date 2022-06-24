@@ -1,4 +1,4 @@
-package com.lhjhoon.discord.chatConfig.domain;
+package com.lhjhoon.discord.settingModule.lolSetting.domain;
 
 import lombok.Data;
 
@@ -9,13 +9,11 @@ import javax.persistence.Id;
 
 @Entity
 @Data
-public class ChatRoomEntity {
+public class LolEntity {
 
     @Id
     @GeneratedValue
     private Long idx;
     @Column(nullable = false)
     private String token;
-    private String activity;
-    private String roomName;
 }

@@ -1,11 +1,12 @@
-package com.lhjhoon.discord.message.service.lol;
+package com.lhjhoon.discord.message.module.weather;
 
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 
-public class LolStatus extends Lol{
+public class WeekWeather extends Weather{
 
     @Override
     public void sendMessageEmbeds(MessageReceivedEvent messageReceivedEvent) {
-        System.out.println("LolStatus");
+        System.out.println("WeekWeather");
     }
+
 }

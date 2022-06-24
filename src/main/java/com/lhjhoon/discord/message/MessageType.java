@@ -1,8 +1,8 @@
 package com.lhjhoon.discord.message;
 
-import com.lhjhoon.discord.message.service.MessageService;
-import com.lhjhoon.discord.message.service.lol.LolStatus;
-import com.lhjhoon.discord.message.service.weather.WeekWeather;
+import com.lhjhoon.discord.message.module.MessageService;
+import com.lhjhoon.discord.message.module.lol.LolStatus;
+import com.lhjhoon.discord.message.module.weather.WeekWeather;
 
 public enum MessageType {
 

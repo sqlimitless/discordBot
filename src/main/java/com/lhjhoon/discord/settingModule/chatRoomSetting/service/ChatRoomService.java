@@ -1,8 +1,8 @@
-package com.lhjhoon.discord.chatConfig.service;
+package com.lhjhoon.discord.settingModule.chatRoomSetting.service;
 
-import com.lhjhoon.discord.chatConfig.domain.ChatRoomDTO;
-import com.lhjhoon.discord.chatConfig.domain.ChatRoomEntity;
-import com.lhjhoon.discord.chatConfig.domain.repository.ChatRoomRepository;
+import com.lhjhoon.discord.settingModule.chatRoomSetting.domain.ChatRoomDTO;
+import com.lhjhoon.discord.settingModule.chatRoomSetting.domain.ChatRoomEntity;
+import com.lhjhoon.discord.settingModule.chatRoomSetting.domain.repository.ChatRoomRepository;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.ResponseEntity;

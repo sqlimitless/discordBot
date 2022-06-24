@@ -1,12 +1,12 @@
-package com.lhjhoon.discord.chatConfig.controller;
+package com.lhjhoon.discord.settingModule.chatRoomSetting.controller;
 
-import com.lhjhoon.discord.chatConfig.domain.ChatRoomDTO;
-import com.lhjhoon.discord.chatConfig.domain.ChatRoomEntity;
-import com.lhjhoon.discord.chatConfig.service.ChatRoomService;
+import com.lhjhoon.discord.settingModule.chatRoomSetting.domain.ChatRoomDTO;
+import com.lhjhoon.discord.settingModule.chatRoomSetting.domain.ChatRoomEntity;
+import com.lhjhoon.discord.settingModule.chatRoomSetting.service.ChatRoomService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -15,7 +15,7 @@ public class ChatRoomController {
 
     private final ChatRoomService chatRoomService;
 
-    @GetMapping("/room")
+    @PostMapping ("/room")
     public ResponseEntity<ChatRoomDTO> save(ChatRoomEntity chatRoomEntity){
         return chatRoomService.save(chatRoomEntity);
     }

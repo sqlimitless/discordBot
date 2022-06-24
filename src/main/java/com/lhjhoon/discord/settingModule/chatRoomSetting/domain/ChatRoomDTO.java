@@ -1,4 +1,4 @@
-package com.lhjhoon.discord.chatConfig.domain;
+package com.lhjhoon.discord.settingModule.chatRoomSetting.domain;
 
 import lombok.Data;
 
